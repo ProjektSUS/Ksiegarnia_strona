@@ -1,0 +1,119 @@
+/* Część CSS dla Produkt.php*/
+
+#produkt_gora{
+	margin-top: 15px;
+	display: inline-flex;
+	width: 100%;
+	
+}
+
+#produkt_zdjecie, #produkt_mini_opis{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+#produkt_dol{
+	margin-left: 15px;
+	margin-right: 15px;
+	padding-top: 5px;
+	padding-bottom: 15px;
+}
+
+.przycisk_powrotu{
+	background-color: #606060;
+	color: white;
+	padding: 5px 15px;
+	text-align: center;
+	font-size: 14px;
+}
+
+.dodaj_do_koszyka{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 200px;
+	border: 1px solid gray;
+	border-radius: 5px;
+	display: flex; 
+	align-items: center;
+	flex-direction: column;
+	height: 100%;
+	box-shadow: -3px 6px 18px 0px rgb(0 0 0 / 30%);
+	margin-left: 50px;
+}
+
+.dodaj_do_koszyka form{
+	align-items: center;
+}
+
+.button_dodaj{
+	height: 35px;
+	width: 120px;
+}
+
+.button_dodaj, input{
+	z-index: 1000;
+}
+
+.text_sztuki{
+	height: 35px;
+	width: 40px;
+	text-align: center;
+}
+
+.ulubione_div{
+	padding-top: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.ulubione_div button{
+	background-color: transparent;
+	background-repeat: no-repeat;
+    border: none;
+	overflow: hidden;
+    outline: none;
+	height: 30px;
+}
+
+.ulubione_div button img{
+	background-color: transparent;
+	border: 0 px;
+	height: 30px;
+}
+
+#wybierz_ksiazke_modyfikacja{
+	padding-left: 15px;
+	padding-bottom: 20px;
+}
+
+#wybierz_ksiazke_modyfikacja button{
+	min-width: 150px;
+    min-height: 35px;
+    font-size: large;
+    margin-bottom: 25px;
+}
+
+#wybierz_ksiazke_modyfikacja textarea{
+	resize: vertical;
+    min-height: 100px;
+    min-width: 550px;
+	padding: 4px;
+}
+
+.hity_tekst a{
+	color: black;
+	text-decoration: none;
+}
+
+.panel_dane input[type="text"]{
+	min-width: 200px;
+	height: 22px;
+	padding: 4px;
+}
+
+#kategorie_modyfikuj{
+	min-width: 200px;
+	height: 22px;
+	
+}

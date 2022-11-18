@@ -1,0 +1,78 @@
+/* Sekcja CSS dla Logowanie.php*/
+
+.naglowek_logowanie{
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.sekcja_logowania{
+	margin-top: 30px;
+	position: relative;
+	display: flex;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding-bottom: 15px;
+}
+
+.Zaloguj_sie{
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.Zarejestruj_sie{
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.input_logowanie{
+	width: 100%;
+	margin-bottom: 15px;
+	height: 40px;
+	text-align: center;
+}
+
+.logowanie_wybierz{
+	width: 15px;
+	height: 15px;
+}
+
+#logowanie_przejscie{
+	margin-top: 30px;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+#logowanie_przejscie a{
+    text-decoration: none;
+}
+
+#przycisk_centruj_sie{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+.zatwierdz_logowanie{
+	background-color: #606060;
+	color: white;
+	padding: 5px 15px;
+	font-size: 14px;
+}
+
+#logowanie_przejscie a{
+	color: rgb(69, 69, 68);
+	text-decoration: none;
+}
+
+.Zaloguj_sie_komunikat p{
+
+	text-align: center;
+}

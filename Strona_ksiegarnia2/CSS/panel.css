@@ -1,0 +1,251 @@
+/* Część CSS dla stron: Panele + Zalogowany*/
+
+.menu_lewo{
+    padding: 15px;
+    border: 1px solid gray;
+    border-radius: 2px;   
+    height: 100%;
+    min-width: 200px;
+}
+
+.menu_lewo ul{
+    margin-bottom: 30px;
+}
+
+.menu_lewo ul a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu_lewo ul a:hover{
+    text-decoration: underline;
+}
+
+.menu_lewo ul{
+    list-style-type: none;
+    list-style: none;
+}
+
+.menu_prawo{
+    margin-left: 40px;
+    padding-bottom: 30px;
+}
+
+.menu_prawo .hity_tekst{
+    list-style-type: none;
+    list-style: none;
+    display: inline-flex;
+}
+
+.menu_prawo table, .menu_prawo table tr, .menu_prawo table tr td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 3px;
+}
+
+.menu_prawo table tr td{
+    max-width: 21ch;
+}
+
+.menu_prawo table{
+    min-width: 465px;
+    min-width: 465px;
+    margin-bottom: 5px;
+}
+
+.menu_prawo p{
+    margin-top: 20px;
+}
+
+.menu_prawa_strona{
+    margin-left: 40px;
+    padding-bottom: 30px;
+}
+
+.menu_prawa_strona .hity_tekst{
+    list-style-type: none;
+    list-style: none;
+    display: inline-flex;
+}
+
+.tabela_panel{
+    border-collapse: separate;
+    border-spacing: 1em 1em ;
+}
+
+.zawartosc_panel{
+    display: inline-flex;
+}
+
+.panel_dane{
+    padding-top: 10px;
+}
+
+.panel_moje_dane hr{
+    margin-top: 10px;
+    min-width: 700px;
+}
+
+.div_dane_wysylkowe button{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    float: right;
+    align-items: center;
+    justify-content: center;
+}
+
+.dane_email button{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    float: right;
+    align-items: center;
+    justify-content: center;
+}
+
+.dane_haslo button{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    float: right;
+    align-items: center;
+    justify-content: center;
+}
+
+#zatwierdz_dane_wysylkowe, #zatwierdz_dane_email, #zatwierdz_dane_haslo{
+    visibility: hidden;
+}
+
+.panel_moje_dane input{
+    height: 30px;
+    width: 200px;
+    align-items: center;
+    margin-top: 3px;
+    margin-bottom: 6px;
+}
+
+.tabelka_kategorie{
+    text-align: center;
+}
+
+.tabelka_kategorie, .tabelka_kategorie th, .tabelka_kategorie tr td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    min-width: 190px;
+    height: 34px;
+    padding: 4px;
+}
+
+.tabelka_kategorie .usun_kategorie{
+    background-color: transparent;
+	background-repeat: no-repeat;
+    border: none;
+	overflow: hidden;
+    outline: none;
+	height: 25px;
+    cursor: pointer;
+}
+
+.tabelka_kategorie tr:hover{
+    background-color: rgba(148, 148, 144, 0.123);
+}
+
+.tabelka_kategorie th{
+    background-color: rgba(90, 87, 87, 0.37);
+}
+
+.menu_prawo_dodawanie{
+    margin-top: 10px;
+}
+.menu_prawo_dodawanie input, .menu_prawo_dodawanie button{
+    width: 150px;
+    height: 30px;
+   
+    margin-bottom: 20px;
+
+}
+
+.tabelka_znizki{
+    text-align: center;
+}
+
+.tabelka_znizki, .tabelka_znizki th, .tabelka_znizki tr td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    min-width: 150px;
+    height: 34px;
+    padding: 4px;
+}
+
+.tabelka_znizki tr td{
+    max-width: 21ch;
+}
+
+.tabelka_znizki .usun_kategorie{
+    background-color: transparent;
+	background-repeat: no-repeat;
+    border: none;
+	overflow: hidden;
+    outline: none;
+	height: 25px;
+    cursor: pointer;
+}
+
+.tabelka_znizki tr:hover{
+    background-color: rgba(148, 148, 144, 0.123);
+}
+
+.tabelka_znizki th{
+    background-color: rgba(90, 87, 87, 0.37);
+}
+
+.dodawanko_znizek table{
+    max-width: 200px;
+    min-width: 200px;
+}
+
+.dodawanko_znizek tr, .dodawanko_znizek tr td{
+    min-width: 70px;
+    max-width: 70px;
+    display: flex;
+}
+
+.dodawanko_znizek input{
+    padding-left: 4px;
+    padding-right: 4px;
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.Dezaktywuj_Aktywuj{
+    background-color: transparent;
+	background-repeat: no-repeat;
+    border: none;
+	overflow: hidden;
+    outline: none;
+	height: 25px;
+    cursor: pointer;
+}
+
+#babel{
+    background:rgb(235, 235, 235);
+    border-radius: 20px;
+    position: fixed;
+    display: block;
+    z-index: 10000;
+    padding-left: 20px; 
+    padding-right: 20px; 
+    padding-top: 40px; 
+    padding-bottom: 40px; 
+    margin-left: auto;
+    margin-right: auto;
+    top: 150px;
+}

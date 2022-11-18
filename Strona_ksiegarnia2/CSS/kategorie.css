@@ -1,0 +1,40 @@
+/* Część CSS dla Kategorie.php*/
+.koszyk_produkty{
+    margin: 50px auto;   
+}
+
+.koszyk_produkty table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.kategorie_produkty{
+    list-style: none;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+#kategorie_strona_lewa{
+	margin-left: 15px;
+	width: 200px;
+	margin-top: 30px;
+	list-style: none;
+}
+
+#kategorie_strona_prawa{
+	margin-right: 15px;
+	width: 600px;
+	margin-top: 15px;
+	display: flex;
+}
+
+.rejestracja_pomyslna{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.menu_kategorie select{
+	min-width: 200px;
+	height: 25px;
+}

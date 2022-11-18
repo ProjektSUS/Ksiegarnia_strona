@@ -1,0 +1,19 @@
+/* Część CSS dla Regulamin.html*/
+
+#regulamin{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 10px;
+}
+
+#wciecie_ul{ 
+	text-indent: 10px 
+}
+
+#wciecie{ 
+	text-indent: 20px 
+}
+
+#wciecie2{
+	text-indent: 40px 
+}

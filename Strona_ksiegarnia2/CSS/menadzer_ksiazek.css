@@ -1,0 +1,13 @@
+
+.menu_prawo button{
+    min-width: 150px;
+    min-height: 35px;
+    font-size: large;
+    margin-bottom: 25px;
+}
+
+.textarea_dodajKs, .textarea_modyfikuj{
+    resize: vertical;
+    min-height: 100px;
+    min-width: 550px;
+}
